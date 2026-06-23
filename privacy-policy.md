@@ -1,6 +1,6 @@
 # Privacy Policy — MTG Marketplace Companion
 
-_Last updated: 2026-05-13_
+_Last updated: 2026-06-23_
 
 This privacy policy describes what data the **MTG Marketplace Companion** Chrome extension ("the extension") collects, where it is stored, and what is (and is not) transmitted off your device.
 
@@ -8,7 +8,7 @@ This privacy policy describes what data the **MTG Marketplace Companion** Chrome
 
 - The extension reads pages on a small set of trading-card marketplaces while you browse them, and saves details of orders you have made to a local database on your own computer.
 - Nothing is sent to the developer of the extension. There is no backend server.
-- If you choose to enable Drive sync, an encrypted-at-rest copy of your captured data is stored in **your own Google Drive** (using a scope that prevents the extension from accessing anything else in your Drive).
+- If you choose to enable Drive sync, a copy of your captured data is saved as a plain JSON file in **your own Google Drive** (using a scope that prevents the extension from accessing anything else in your Drive). The extension does not add its own encryption, so treat that file like any other personal file in your Drive.
 - You can delete all data at any time from the Settings page, or by uninstalling the extension.
 
 ## What data is captured
