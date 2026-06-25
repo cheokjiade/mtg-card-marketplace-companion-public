@@ -1,6 +1,6 @@
 # Privacy Policy — MTG Marketplace Companion
 
-_Last updated: 2026-06-23_
+_Last updated: 2026-06-25_
 
 This privacy policy describes what data the **MTG Marketplace Companion** Chrome extension ("the extension") collects, where it is stored, and what is (and is not) transmitted off your device.
 
@@ -49,6 +49,14 @@ When you actively use the extension, the following network requests are made on 
 - **The marketplaces themselves** (TCGPlayer, Manapool, etc.) — when you click the extension's "Backfill" feature, the extension makes the same kinds of requests your browser would make if you clicked through their order-history pages. Marketplace requests use your existing session cookies for those sites; the extension does not transmit your credentials anywhere.
 
 **No data is transmitted to the extension developer**, to any analytics service, or to any third party not listed above.
+
+## Marketplace indicators (optional, off by default)
+
+The extension includes an optional feature that draws small badges onto TCGPlayer and Manapool pages — indicating cards you already own (exact printing vs. other printing) and flagging listings from sellers you have blacklisted.
+
+- **This feature is turned off by default.** It only runs after you explicitly enable it in Settings, and you can turn it (or either indicator) off again at any time.
+- When enabled, the owned-card badges are rendered directly into the marketplace's own web page. Because of this, that marketplace's own scripts could in principle read the badges and infer which cards — and how many — you own. No holdings data is sent anywhere by the extension; the only disclosure is what becomes visible within the marketplace page itself while you browse it.
+- The blacklisted-seller warnings do not reveal your holdings.
 
 ## Use of Google API data
 
